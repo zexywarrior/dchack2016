@@ -10,17 +10,17 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.elliscrawford.zexy.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
 
     <Button
-        android:text="Button"
+        android:text="Home Screen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView"
-        android:layout_marginTop="110dp"
-        android:id="@+id/button"
-        android:onClick="buttonPressed"/>
+        android:id="@+id/button2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="Screen1"
+
+        />
+
+
 </RelativeLayout>
