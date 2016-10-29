@@ -20,7 +20,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity android:name=".login"></activity>
+=======
+        <activity android:name=".LaunchActivity"></activity>
+>>>>>>> b6d156583d1baf763681c560d826e50b40903860
     </application>
 
 </manifest>
