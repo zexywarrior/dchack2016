@@ -17,7 +17,9 @@
         android:layout_marginBottom="172dp"
         android:id="@+id/HomeSignInButton"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick = "login"
+        />
 
     <TextView
         android:text="My Dream Journal"
@@ -36,5 +38,7 @@
         android:id="@+id/HomeGuest"
         android:layout_marginTop="44dp"
         android:layout_alignTop="@+id/HomeSignInButton"
-        android:layout_alignStart="@+id/HomeSignInButton" />
+        android:layout_alignStart="@+id/HomeSignInButton"
+        />
+
 </RelativeLayout>

@@ -12,15 +12,14 @@
 
 
     <Button
-        android:text="Home Screen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button2"
         android:onClick="Screen1"
-
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="170dp" />
+        android:layout_marginTop="170dp"
+        android:text="HOME" />
 
     <Button
         android:text="User Enter Dream"
@@ -31,6 +30,16 @@
         android:layout_centerHorizontal="true"
         android:onClick="Screen2"
         />
+
+    <Button
+        android:text="LOGIN / SIGN IN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:onClick="login"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="74dp" />
 
 
 </RelativeLayout>
